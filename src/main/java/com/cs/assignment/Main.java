@@ -7,11 +7,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//one unsorted file 
-//- > split into multiple sorted files 
-//-> merge them into single sorted file 
-//-> split them again and find bad event in each file 
-//-> get the event with max duration from outcome 
+/**Driver program to solve the problem
+ *
+ */
 public class Main {
 
 	static Logger logger = Logger.getLogger(Main.class);
