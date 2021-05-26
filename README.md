@@ -2,7 +2,13 @@
 coding assignment
 
 
-# useful maven commands
+### Requirements
+
+- Make sure the java 8 and maven is already installed on the machine
+
+### Run the project
+
+- Make sure to be in the root directory
 
 - To run the program below command can be used, with a valid fullpath to logfile.txt
   
