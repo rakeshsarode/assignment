@@ -23,3 +23,15 @@ coding assignment
 - once the program is finished, to view the db records below command can be used 
   
   `mvn compile exec:java -Dexec.mainClass="org.hsqldb.util.DatabaseManagerSwing" -Dexec.args="--url jdbc:hsqldb:file:./data/db/events;shutdown=true"`
+
+- log path from root directory
+
+  `./logs/assignment.log`
+  
+- db files path from root directory
+
+  `./data/db/events`
+  
+- temp files path from root directory (application will use this folder for temporary work, like sorting and merging)
+  
+   `./temp`
