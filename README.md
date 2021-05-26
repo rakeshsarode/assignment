@@ -1,6 +1,18 @@
 # coding assignment
 coding assignment
 
+# solution approach
+
+As per the requirement, we have to populate the events details in the db and flag the events that takes more than 4ms, and to calculate the event duration for each event id we need both the entries (started, and finished) together.
+
+to pull both the events together we can just sort that file based on line content, but if the file is too big we can use the below approach.
+
+1) split input file into multiple files,
+2) sort each file individually,
+3) merge all the sorted files in single file,
+4) split the sorted merged file into multiple files, 
+5) populate the db with all the events from each splitted file from step 4
+
 
 ### Requirements
 
