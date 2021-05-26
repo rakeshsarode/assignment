@@ -1,11 +1,9 @@
-package com.assignment;
+package com.cs.assignment;
 
 import org.apache.log4j.Logger;
-import org.hsqldb.util.DatabaseManagerSwing;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 

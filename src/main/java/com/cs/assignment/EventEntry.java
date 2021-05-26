@@ -1,4 +1,4 @@
-package com.assignment;
+package com.cs.assignment;
 /**
  * 
  * this class holds the single event entry from logfile

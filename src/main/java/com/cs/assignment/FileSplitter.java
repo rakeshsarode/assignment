@@ -1,4 +1,4 @@
-package com.assignment;
+package com.cs.assignment;
 
 import org.apache.log4j.Logger;
 

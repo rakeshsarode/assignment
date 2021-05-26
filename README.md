@@ -12,13 +12,13 @@ coding assignment
 
 - To run the program below command can be used, with a valid fullpath to logfile.txt
   
-  `mvn compile exec:java -Dexec.mainClass="com.assignment.Main" -Dexec.args="full_path_tolog_file"`
+  `mvn compile exec:java -Dexec.mainClass="com.cs.assignment.Main" -Dexec.args="full_path_tolog_file"`
   
   Note : please make sure you provide a valid path in exec.args
   
   Example:
   
-  `mvn compile exec:java -Dexec.mainClass="com.assignment.Main" -Dexec.args="C:\logfile.txt"`
+  `mvn compile exec:java -Dexec.mainClass="com.cs.assignment.Main" -Dexec.args="C:\logfile.txt"`
 
 - once the program is finished, to view the db records below command can be used 
   

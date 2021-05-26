@@ -1,4 +1,4 @@
-package com.assignment;
+package com.cs.assignment;
 
 import java.io.File;
 import java.nio.file.Paths;

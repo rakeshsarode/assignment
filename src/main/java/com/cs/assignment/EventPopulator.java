@@ -1,6 +1,6 @@
-package com.assignment;
+package com.cs.assignment;
 
-import com.assignment.model.Event;
+import com.cs.assignment.model.Event;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.log4j.Logger;
 
